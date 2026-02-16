@@ -2,15 +2,15 @@ aPackageInfo = [
 	:name = "The piano Package",
 	:description = "Our piano package using the Ring programming language",
 	:folder = "piano",
-	:developer = "",
-	:email = "",
+	:developer = "hassan2linux",
+	:email = "hassan2linux@gmail.com",
 	:license = "MIT License",
 	:version = "1.0.0",
 	:ringversion = "1.26",
 	:versions = 	[
 		[
 			:version = "1.0.0",
-			:branch = "master"
+			:branch = "main"
 		]
 	],
 	:libs = 	[
@@ -21,6 +21,7 @@ aPackageInfo = [
 		]
 	],
 	:files = 	[
+        "README.md",
 		"lib.ring",
 		"main.ring"
 	],
@@ -81,4 +82,5 @@ aPackageInfo = [
 	:macosremove = "",
 	:ubunturemove = "",
 	:fedoraremove = ""
+
 ]
